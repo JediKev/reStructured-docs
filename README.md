@@ -19,3 +19,6 @@ Replacing the example link with the repo link you copied.
 
 #### 4. Open repo in Atom
 Now that you have the repo saved, open Atom and go to `File > Add Project Folder`.  A new window should open with your finder.  Navigate to where you saved the repo, highlight the repo folder and press open.  Atom should pop up with your repo on the left side.
+
+#### 5. Make changes
+Once your repo is in Atom you can open it by clicking the arrow next to the name on the sidebar and click the `Example.rst` file.  Once open follow the instructions to make your first reStructuredText file!
