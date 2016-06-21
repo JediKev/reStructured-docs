@@ -22,3 +22,6 @@ Now that you have the repo saved, open Atom and go to `File > Add Project Folder
 
 #### 5. Make changes
 Once your repo is in Atom you can open it by clicking the arrow next to the name on the sidebar and click the `Example.rst` file.  Once open follow the instructions to make your first reStructuredText file!
+
+#### 6. Add changes to GitHub
+After all of the steps, save the file and you should notice on the sidebar that the color of the file name has changed.  That means Git recognizes that the file is different than before and is telling you that you need to take action.  Well lets take action, first press the shortcut keys <kbd>command</kbd>+<kbd>shift</kbd>+<kbd>H</kbd> and a new drop down should appear.  In this window you will find all of the possible Git commands.  First we need to add the file to the staging area so it can be committed and pushed.  To add a file you simply press the shortcut keys and type 'Add' and press enter.  A green message should pop up telling you it added the file to Git.
