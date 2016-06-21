@@ -28,3 +28,6 @@ After all of the steps, save the file and you should notice on the sidebar that 
 
 #### 7. Commit changes to GitHub
 Now you need to commit the file so it can be forever known what was changed, when it was changed and why it was changed.  To commit changes you press the same shortcut keys and type 'Commit' and press enter.  You should see a new tab open asking for a commit message (this is a brief message telling every one else why you changed that), you type whatever you'd like and save the file, this should exit the tab and give you a success message.
+
+#### 8. Push changes to GitHub
+The final step is to push the file to GitHub so every one in the world can see your code and all the reasons you changed your code.  Press the shortcut keys and type 'Push' and press enter.  This should either give you a success message or ask for GitHub username and password and then give you a success message. You should now be able to go to your GitHub account and see the files with the new changes!
