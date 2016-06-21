@@ -16,3 +16,6 @@ $ git clone git@github.com:repo/link.git
 ```
 Replacing the example link with the repo link you copied.
 >If you don't have your SSH key set up, then you need to press the download button and save the repo wherever you want it.
+
+#### 4. Open repo in Atom
+Now that you have the repo saved, open Atom and go to `File > Add Project Folder`.  A new window should open with your finder.  Navigate to where you saved the repo, highlight the repo folder and press open.  Atom should pop up with your repo on the left side.
