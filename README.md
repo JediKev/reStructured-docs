@@ -25,3 +25,6 @@ Once your repo is in Atom you can open it by clicking the arrow next to the name
 
 #### 6. Add changes to GitHub
 After all of the steps, save the file and you should notice on the sidebar that the color of the file name has changed.  That means Git recognizes that the file is different than before and is telling you that you need to take action.  Well lets take action, first press the shortcut keys <kbd>command</kbd>+<kbd>shift</kbd>+<kbd>H</kbd> and a new drop down should appear.  In this window you will find all of the possible Git commands.  First we need to add the file to the staging area so it can be committed and pushed.  To add a file you simply press the shortcut keys and type 'Add' and press enter.  A green message should pop up telling you it added the file to Git.
+
+#### 7. Commit changes to GitHub
+Now you need to commit the file so it can be forever known what was changed, when it was changed and why it was changed.  To commit changes you press the same shortcut keys and type 'Commit' and press enter.  You should see a new tab open asking for a commit message (this is a brief message telling every one else why you changed that), you type whatever you'd like and save the file, this should exit the tab and give you a success message.
