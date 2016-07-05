@@ -1,102 +1,57 @@
 Example .rst File
 =================
 
-This file will give you a short tutorial showing you the basics of the reStructuredText (.rst) language.
+Here you will make your very own reStructuredText file and push it to GitHub!  But first go to https://github.com/JediKev/reStructured-docs/blob/master/Tutorial.rst and follow the short tutorial so you can get the basics of reStructuredText.  Once complete come back to this file and start with the steps below.
 
 
-First Things First
-------------------
+Numero Uno
+----------
 
-Paragraphs and Titles are the first things you'll encounter.  To make a paragraph all you have to do is type the text out like you would normally but without indentation.  In order to separate paragraphs or content put one or more lines in between the two items of content like the example below (in order to separate sections put two or more lines in between)::
-
-  This is paragraph one.  This is just some text to show you how to write a paragraph.  Aren't paragraphs fun?
-
-  This is paragraph two.  Just some more filler text to make every thing look like two paragraphs.  Yea, they kind of are!
+Make a heading title with a short paragraph underneath and then a section title with two paragraphs underneath (write it below):
 
 
-There are two types of titles with the difference being one is larger than the other.  The biggest title or ``headline title`` as we will call it, is made by putting a series of equal signs under it::
-
-  Headline Title
-  ==============
-
-And the smaller title or the ``section title`` is made by putting a series of dashes underneath like so::
-
-  Section Title
-  -------------
 
 
-Make Sure You're Inline
------------------------
+Numero Dos
+----------
 
-Any kind of italics or underline or what have you, will be labeled as ``inline markup``.  Below is an example on how you would do each::
-
-  *italics*
-  **boldface**
-  ``codesamples``
+Make a paragraph with all types of inline markup in it (write it below):
 
 
-Links on Links
---------------
-
-There are two ways to link external sites in your documentation.  The first way is the easiest and most used way.  Use the following format::
-
-  This is a sentence that has `Link Text <www.example.com>`_ in it.
-
-The second way is mainly for when you reference the same link over and over again.  You can set a variable and then call that variable in a sentence.  First you must put the variable at the top or bottom of your page with spaces after or before it and then reference the name later on::
-
-  .. _name of the link: www.example.com
-
-  Later on in a sentence you could reference the `name of the link`_.
 
 
-Lists and Quotes
-----------------
-
-Lists are somewhat easy in the sense of all you have to do is hit enter and add a new symbol to make a new list item.  The following shows you different ways to make a simple list::
-
-  * Bulleted lists start with asterisks
-  * And can also take up
-    two lines if need be.
-
-  1. Numbered lists can be made one of two ways.
-  2. Starting with numbers
-
-  # Or they can start with pound signs too.
-  # These act as normal lists
-
-You can also make lists inside of lists by indenting the the sublist item and separating it from the main list items by a full space::
-
-  * This is a main point
-
-    * With this being a sub-point
-
-  * Main points continue
-
-In order to make a definition just remove the symbols::
-
-  Definition
-    A definition of the word placed above.
-
-
-Code Blocks
+Numero Tres
 -----------
 
-If you need to reference code that isn't short you would use a code block.  The explanation will go on top followed by ``::`` then putting a space between the explanation and the code and indenting the code like so::
-
-  This is the explanation::
-
-    These lines will be a block of code. Anything after the ``::`` and underneath the space of the explanation will be automatically transformed into a code block.
-
-  While adding a space after the code and typing will be back to regular paragraph form.
+Make a paragraph with a link embedded (write it below):
 
 
-Last But Not Least
-------------------
 
-Images are important as you need screenshots to go along with what you are talking about most of the time.  So in order to add an image in to the documentation you must save the image in a folder that is in the documentation folder and use::
 
-  This is a sentence explaining something that needs the screenshot below:
+Numero Quatro
+-------------
 
-  .. image: img_folder/example_image.png
+Make a bulleted list that has numbered sub-list items:
 
-  This continues on after the image.
+
+
+
+Numero Cinco
+------------
+
+Make the following a code block:
+
+This is some php code:
+<?php
+  echo('Hello World!');
+?>
+
+
+Numero Ses
+----------
+
+Save an image into the img folder in this project and add it in between the two paragraphs:
+
+This is paragraph one that says something about something and it needs an image to help explain.
+
+This is paragraph two that says nothing about the image above.
