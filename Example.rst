@@ -97,6 +97,6 @@ Images are important as you need screenshots to go along with what you are talki
 
   This is a sentence explaining something that needs the screenshot below:
 
-  .. image: img/example_image.png
+  .. image: img_folder/example_image.png
 
   This continues on after the image.
